@@ -15,7 +15,6 @@ PSFadingScrollView is a swift UIScrollView subclass, which applies gradient to s
                        DESC
 
   s.homepage         = 'https://github.com/Vugla/PSFadingScrollView'
-  s.screenshots     = 'Screenshots/screenshot.png'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Vugla' => 'predragsamardzic@msn.com' }
   s.source           = { :git => 'https://github.com/Vugla/PSFadingScrollView.git', :tag => s.version.to_s }

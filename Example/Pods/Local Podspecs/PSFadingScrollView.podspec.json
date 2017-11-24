@@ -4,7 +4,6 @@
   "summary": "Horizontal scroll view with fading edges",
   "description": "PSFadingScrollView is a swift UIScrollView subclass, which applies gradient to scrollview mask layer, making its content appear as faded at edges.",
   "homepage": "https://github.com/Vugla/PSFadingScrollView",
-  "screenshots": "Screenshots/screenshot.png",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
