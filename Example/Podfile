@@ -2,10 +2,4 @@ use_frameworks!
 
 target 'PSFadingScrollView_Example' do
   pod 'PSFadingScrollView', :path => '../'
-
-  target 'PSFadingScrollView_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end

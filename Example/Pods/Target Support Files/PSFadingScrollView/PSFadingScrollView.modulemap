@@ -1,0 +1,6 @@
+framework module PSFadingScrollView {
+  umbrella header "PSFadingScrollView-umbrella.h"
+
+  export *
+  module * { export * }
+}

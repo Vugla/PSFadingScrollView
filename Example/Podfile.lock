@@ -1,0 +1,16 @@
+PODS:
+  - PSFadingScrollView (0.1.0)
+
+DEPENDENCIES:
+  - PSFadingScrollView (from `../`)
+
+EXTERNAL SOURCES:
+  PSFadingScrollView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  PSFadingScrollView: 0370c520b0630340281a16c3ec7303f215de0842
+
+PODFILE CHECKSUM: 4a20f175c25b5ce43abf52339bf7755afbc1bed8
+
+COCOAPODS: 1.3.1

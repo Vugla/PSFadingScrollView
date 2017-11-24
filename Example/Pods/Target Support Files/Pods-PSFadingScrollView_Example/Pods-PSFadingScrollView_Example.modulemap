@@ -1,0 +1,6 @@
+framework module Pods_PSFadingScrollView_Example {
+  umbrella header "Pods-PSFadingScrollView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

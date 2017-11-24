@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33F93EAF21AB0705ECE895BEC662A46D /* Pods-PSFadingScrollView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4077880311F46129041B140314E13D8 /* Pods-PSFadingScrollView_Example-dummy.m */; };
+		40D73AAE254B02395C652D694E74719A /* Pods-PSFadingScrollView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 739B993D2F2ED461D30AA193747F1DBD /* Pods-PSFadingScrollView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4ED27FE4F253A377D87896FCE7C63963 /* PSFadingScrollView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC958633004C800898C01979F7FBF48E /* PSFadingScrollView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E388144F9C3F2B26301EFC92D7FD453 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		9D5198486BCAAD4586BFBC659E97C9D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A385EE5088B10D5BF70CD6D379C5B95E /* PSFadingScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F916B2F9336A26B5B007CC36471427 /* PSFadingScrollView.swift */; };
+		CD4A367E85633CB43567B20C54CFC151 /* PSFadingScrollView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5E108D1D8C7D96B8AFC77BDCED3975A /* PSFadingScrollView-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40B2ECAE293FE5AED3ACAF13D4E2AB9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 095C5ED9B714D9555B6C598EF986C0F4;
+			remoteInfo = PSFadingScrollView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1691F1929932D9C091B94E52DB069F30 /* Pods-PSFadingScrollView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PSFadingScrollView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3D70E4F4BE1320AE0121DCBD11ADCB55 /* Pods_PSFadingScrollView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PSFadingScrollView_Example.framework; path = "Pods-PSFadingScrollView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47CA657A7C8BA4058A359BE506928728 /* PSFadingScrollView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PSFadingScrollView-prefix.pch"; sourceTree = "<group>"; };
+		5A0103F5CDF92E26A6C8B738C6B38C7D /* Pods-PSFadingScrollView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PSFadingScrollView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		739B993D2F2ED461D30AA193747F1DBD /* Pods-PSFadingScrollView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PSFadingScrollView_Example-umbrella.h"; sourceTree = "<group>"; };
+		793C4D4F258E9761B38203C33D8A73FB /* Pods-PSFadingScrollView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PSFadingScrollView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		804218456B5CFE2FCAA82D86941B1C9B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86ED1D201EEA7F592D521097C9FDD981 /* PSFadingScrollView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PSFadingScrollView.xcconfig; sourceTree = "<group>"; };
+		90F916B2F9336A26B5B007CC36471427 /* PSFadingScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PSFadingScrollView.swift; path = PSFadingScrollView/Classes/PSFadingScrollView.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94E9ACBD0E941B25A422CA65E4A5A1FB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0E072F371540A492597E4465F3319AB /* Pods-PSFadingScrollView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PSFadingScrollView_Example-resources.sh"; sourceTree = "<group>"; };
+		B4077880311F46129041B140314E13D8 /* Pods-PSFadingScrollView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PSFadingScrollView_Example-dummy.m"; sourceTree = "<group>"; };
+		B4467E3778A83EE21F57EA22F69355D4 /* Pods-PSFadingScrollView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PSFadingScrollView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CD557A1B7AA96CA8EE48682C46EC419D /* PSFadingScrollView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = PSFadingScrollView.modulemap; sourceTree = "<group>"; };
+		D5F422B90CD1D2D48485B1C6DED614B3 /* Pods-PSFadingScrollView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PSFadingScrollView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		DC958633004C800898C01979F7FBF48E /* PSFadingScrollView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PSFadingScrollView-umbrella.h"; sourceTree = "<group>"; };
+		DE95066FECDB9E92F6DDF77F118F727B /* Pods-PSFadingScrollView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PSFadingScrollView_Example.modulemap"; sourceTree = "<group>"; };
+		E08C8A9544BDD519B115B19DAAD6723E /* PSFadingScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PSFadingScrollView.framework; path = PSFadingScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5E108D1D8C7D96B8AFC77BDCED3975A /* PSFadingScrollView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PSFadingScrollView-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20AF099A48C37127F8670A321AC4BC2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D5198486BCAAD4586BFBC659E97C9D1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44C14985261A6BEB11914415A3B9A1DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E388144F9C3F2B26301EFC92D7FD453 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14A9C5E5DFDA183C32BBA0BACC694DBE /* PSFadingScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				90F916B2F9336A26B5B007CC36471427 /* PSFadingScrollView.swift */,
+				329262A133395B7C9770AA3AE9A22D99 /* Support Files */,
+			);
+			name = PSFadingScrollView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		329262A133395B7C9770AA3AE9A22D99 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				804218456B5CFE2FCAA82D86941B1C9B /* Info.plist */,
+				CD557A1B7AA96CA8EE48682C46EC419D /* PSFadingScrollView.modulemap */,
+				86ED1D201EEA7F592D521097C9FDD981 /* PSFadingScrollView.xcconfig */,
+				E5E108D1D8C7D96B8AFC77BDCED3975A /* PSFadingScrollView-dummy.m */,
+				47CA657A7C8BA4058A359BE506928728 /* PSFadingScrollView-prefix.pch */,
+				DC958633004C800898C01979F7FBF48E /* PSFadingScrollView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PSFadingScrollView";
+			sourceTree = "<group>";
+		};
+		6590868807B4323A9EE0E5C0586BAF99 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEAB24BF3C4D1762F2CB45574BC04DE6 /* Pods-PSFadingScrollView_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				E0EEAB6B052FD9D097F1CBA760C49C67 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				C8C4B75C33B3E07D38B5C7C2ABEF2CC8 /* Products */,
+				6590868807B4323A9EE0E5C0586BAF99 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8C4B75C33B3E07D38B5C7C2ABEF2CC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D70E4F4BE1320AE0121DCBD11ADCB55 /* Pods_PSFadingScrollView_Example.framework */,
+				E08C8A9544BDD519B115B19DAAD6723E /* PSFadingScrollView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DEAB24BF3C4D1762F2CB45574BC04DE6 /* Pods-PSFadingScrollView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				94E9ACBD0E941B25A422CA65E4A5A1FB /* Info.plist */,
+				DE95066FECDB9E92F6DDF77F118F727B /* Pods-PSFadingScrollView_Example.modulemap */,
+				B4467E3778A83EE21F57EA22F69355D4 /* Pods-PSFadingScrollView_Example-acknowledgements.markdown */,
+				D5F422B90CD1D2D48485B1C6DED614B3 /* Pods-PSFadingScrollView_Example-acknowledgements.plist */,
+				B4077880311F46129041B140314E13D8 /* Pods-PSFadingScrollView_Example-dummy.m */,
+				793C4D4F258E9761B38203C33D8A73FB /* Pods-PSFadingScrollView_Example-frameworks.sh */,
+				A0E072F371540A492597E4465F3319AB /* Pods-PSFadingScrollView_Example-resources.sh */,
+				739B993D2F2ED461D30AA193747F1DBD /* Pods-PSFadingScrollView_Example-umbrella.h */,
+				5A0103F5CDF92E26A6C8B738C6B38C7D /* Pods-PSFadingScrollView_Example.debug.xcconfig */,
+				1691F1929932D9C091B94E52DB069F30 /* Pods-PSFadingScrollView_Example.release.xcconfig */,
+			);
+			name = "Pods-PSFadingScrollView_Example";
+			path = "Target Support Files/Pods-PSFadingScrollView_Example";
+			sourceTree = "<group>";
+		};
+		E0EEAB6B052FD9D097F1CBA760C49C67 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				14A9C5E5DFDA183C32BBA0BACC694DBE /* PSFadingScrollView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4915CD489775743CE01508825BEA8E30 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40D73AAE254B02395C652D694E74719A /* Pods-PSFadingScrollView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50D1CBA7396F2EF457863E75C47DD2F0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ED27FE4F253A377D87896FCE7C63963 /* PSFadingScrollView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		02560F2028A7CE7DF840E45ECF5EDE4C /* Pods-PSFadingScrollView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B81A6C6FFCC66ACFEB7148E645550CF8 /* Build configuration list for PBXNativeTarget "Pods-PSFadingScrollView_Example" */;
+			buildPhases = (
+				CEFC97B9C7E102A49EBF8B0D535AFB3E /* Sources */,
+				20AF099A48C37127F8670A321AC4BC2D /* Frameworks */,
+				4915CD489775743CE01508825BEA8E30 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3300ED443363A62B81E4FACDF7487BE /* PBXTargetDependency */,
+			);
+			name = "Pods-PSFadingScrollView_Example";
+			productName = "Pods-PSFadingScrollView_Example";
+			productReference = 3D70E4F4BE1320AE0121DCBD11ADCB55 /* Pods_PSFadingScrollView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		095C5ED9B714D9555B6C598EF986C0F4 /* PSFadingScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FDF982710BB76D9C630FD12D0559BD9 /* Build configuration list for PBXNativeTarget "PSFadingScrollView" */;
+			buildPhases = (
+				F050F21CFD10AAC1572593F6919D2E13 /* Sources */,
+				44C14985261A6BEB11914415A3B9A1DC /* Frameworks */,
+				50D1CBA7396F2EF457863E75C47DD2F0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PSFadingScrollView;
+			productName = PSFadingScrollView;
+			productReference = E08C8A9544BDD519B115B19DAAD6723E /* PSFadingScrollView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C8C4B75C33B3E07D38B5C7C2ABEF2CC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02560F2028A7CE7DF840E45ECF5EDE4C /* Pods-PSFadingScrollView_Example */,
+				095C5ED9B714D9555B6C598EF986C0F4 /* PSFadingScrollView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEFC97B9C7E102A49EBF8B0D535AFB3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33F93EAF21AB0705ECE895BEC662A46D /* Pods-PSFadingScrollView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F050F21CFD10AAC1572593F6919D2E13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD4A367E85633CB43567B20C54CFC151 /* PSFadingScrollView-dummy.m in Sources */,
+				A385EE5088B10D5BF70CD6D379C5B95E /* PSFadingScrollView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3300ED443363A62B81E4FACDF7487BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PSFadingScrollView;
+			target = 095C5ED9B714D9555B6C598EF986C0F4 /* PSFadingScrollView */;
+			targetProxy = 40B2ECAE293FE5AED3ACAF13D4E2AB9D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08E330A31B26D0BAF754AECADE3BC33B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A0103F5CDF92E26A6C8B738C6B38C7D /* Pods-PSFadingScrollView_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PSFadingScrollView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PSFadingScrollView_Example/Pods-PSFadingScrollView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PSFadingScrollView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		88A2A0C036B0F32A8E2D582917F000F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86ED1D201EEA7F592D521097C9FDD981 /* PSFadingScrollView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PSFadingScrollView/PSFadingScrollView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PSFadingScrollView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PSFadingScrollView/PSFadingScrollView.modulemap";
+				PRODUCT_NAME = PSFadingScrollView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CB9F545CB258B4780A4D3D09CAB6F468 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1691F1929932D9C091B94E52DB069F30 /* Pods-PSFadingScrollView_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PSFadingScrollView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PSFadingScrollView_Example/Pods-PSFadingScrollView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PSFadingScrollView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E1D6B91B67B6EB6B3FDD043A2A20FD9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86ED1D201EEA7F592D521097C9FDD981 /* PSFadingScrollView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PSFadingScrollView/PSFadingScrollView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PSFadingScrollView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PSFadingScrollView/PSFadingScrollView.modulemap";
+				PRODUCT_NAME = PSFadingScrollView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FDF982710BB76D9C630FD12D0559BD9 /* Build configuration list for PBXNativeTarget "PSFadingScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1D6B91B67B6EB6B3FDD043A2A20FD9C /* Debug */,
+				88A2A0C036B0F32A8E2D582917F000F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B81A6C6FFCC66ACFEB7148E645550CF8 /* Build configuration list for PBXNativeTarget "Pods-PSFadingScrollView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08E330A31B26D0BAF754AECADE3BC33B /* Debug */,
+				CB9F545CB258B4780A4D3D09CAB6F468 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
